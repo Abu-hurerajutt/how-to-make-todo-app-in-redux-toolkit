@@ -9,11 +9,12 @@ function App() {
 
   return (
     <>
-
-      <Routes>
+      <Userdetail/>
+      <Alluserdata/>
+      {/* <Routes>
         <Route path='/' element={<Userdetail/>}></Route>
         <Route path='/a' element={<Alluserdata/>}></Route>
-      </Routes>
+      </Routes> */}
     </>
   )
 }

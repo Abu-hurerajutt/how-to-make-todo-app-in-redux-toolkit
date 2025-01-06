@@ -17,7 +17,7 @@ const Userdetail = () => {
         
     }
     const data = useSelector((state)=>{
-        return state.admin
+        return state.user
     })
     const Handledelete=(index)=>{
       dispatch(Deletetodo(index))

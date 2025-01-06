@@ -19,7 +19,8 @@ const userSlice = createSlice({
                 state[index] = newtask;
             }
         }
-    }
+    },
+    
 })
 export default userSlice.reducer;
 export const {addUser,Deletetodo,Removeall,Edittodo} = userSlice.actions
